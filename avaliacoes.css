@@ -1,0 +1,161 @@
+body {
+
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.faixa {
+    justify-content: center;
+    display: flex;
+    font-size: 90px;
+
+}
+
+* {
+    margin: 0px;
+}
+
+.texto {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.feedback {
+    font-size: 70px;
+
+}
+
+.cabecario {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+
+.botoes {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+input[type="text"] {
+    height: 30px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+.rodape {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.estrelas {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5px;
+    border: ridge 20px;
+    border-color: black;
+}
+
+.estrelinha {
+    display: flex;
+    margin-right: 20px;
+}
+
+.star-icon {
+    list-style-type: none;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 90px;
+    /*alterar o tamanho das estrelas*/
+    width: 90px;
+}
+
+.star-icon::before {
+    content: "\2605";
+    /*cor cheia*/
+}
+
+.star-icon.ativo~.star-icon::before {
+    content: "\2606";
+    /*cor vazia*/
+    color: #efe05d;
+}
+
+.estrelinha:hover .star-icon::before {
+    content: "\2605";
+    /*cor cheia*/
+}
+
+.star-icon:hover~.star-icon::before {
+    content: "\2606";
+    /*cor vazia*/
+    color: #efe05d;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+
+@media(max-width:600px) {
+    footer {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        position: relative;
+        bottom: 0px;
+        width: 120%;
+    }
+
+    .faixa {
+        font-size: 70px;
+        margin-top: 140px;
+        ;
+    }
+
+    main {
+        margin: 0px;
+    }
+    .cabecario {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0px;
+    width: 120%;
+
+}
+}

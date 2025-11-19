@@ -1,0 +1,188 @@
+.titulo {
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20px;
+
+
+}
+
+.conteudo {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+body {
+    background-image: url("./fundo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.fotos {
+    max-width: 355px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px;
+}
+
+.paragrafo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    gap: 20px;
+}
+
+.tudo {
+    display: grid;
+    grid-template-columns: 850px 370px;
+}
+
+.legenda {
+    font-size: 30px;
+}
+
+* {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+.primeira {
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;
+}
+
+.imagem-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 50px; */
+
+
+}
+
+.comidas {
+    border-radius: 50px 50px;
+}
+
+.cabecario {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 10px;
+}
+
+.botoes {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.opcoes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.botoes-baixo {
+    font-size: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+
+.comeco {
+    display: flex;
+    gap: 27%;
+}
+
+.pontos {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.rodape {
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media(max-width:600px) {
+    .opcoes {
+
+        display: flex;
+        flex-direction: column;
+        align-items: cent;
+        margin-top: 0px;
+        padding: 0px;
+    }
+
+    .botoes-baixo {
+        font-size: 40px;
+        border-radius: 5px;
+        padding: 5px;
+        text-decoration: none;
+        margin-bottom: 0px;
+        color: black;
+    }
+
+    .primeira {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .paragrafo {
+
+        width: 100%;
+    }
+
+    .conteudo {
+        font-size: 1rem;
+    }
+    footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0px;
+    width: 120%;
+}
+.cabecario {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0px;
+    width: 120%;
+}
+}
