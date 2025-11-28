@@ -32,8 +32,30 @@ p {
 .redes_sociais {
     display: flex;
     font-size: 30px;
-    justify-content: space-evenly;
+    justify-content: space-evenly;               
     padding-top: 40px;
+}
+.pressionado{
+    background: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 7px 0px;
+    display: inline-block;
+    transition: all.2s;
+    position: relative;
+    padding: 10px 15px;
+    position: relative;
+    top:0;
+    cursor: pointer;
+    margin: 0px;
+    margin-right: 0%;
+}
+.pressionado:active {
+    top:3px;
+    box-shadow: 0 2px 0px;
+    transition: all .2s;
+
 }
 
 .cabecario{
@@ -46,8 +68,8 @@ p {
 .botoes{
     font-size: 30px;
     background-color: white;
-    border-radius: 30px;
-    padding: 5px 10px;
+    border-radius: 10px;
+    padding: 5px 15px;
     text-decoration: none;
     color: black;
 }
@@ -57,17 +79,17 @@ p {
     align-items: center;
     text-decoration: none;
 }
-.rodape{
-    font-size: 30px;
+.rodape {
+    font-size: 20px;
     background-color: white;
     border-radius: 5px;
-    padding:5px
+    padding: 5px
 }
 footer{
     background-color:black;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 5px;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -81,7 +103,7 @@ footer{
     position: relative;
     bottom: 0px;
     margin-top: 10px;
-    width: 120%;
+    width: 100%;
 }
 .redes_sociais {
     display: flex;
@@ -95,6 +117,20 @@ footer{
     justify-content: space-around;
     background-color:black;
     padding: 0px;
-    width: 120%;
+    width: 100%;
 }
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 40px;
+}
+.botoes{
+    font-size: 20px;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+
 }

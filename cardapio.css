@@ -1,5 +1,5 @@
 .titulo {
-    font-size: 80px;
+    font-size: 90px;
     text-align: center;
     margin-top: 20px;
 
@@ -10,6 +10,28 @@
     font-size: 2rem;
     display: flex;
     justify-content: space-between;
+
+}
+.pressionado{
+    background: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0 7px 0px;
+    display: inline-block;
+    transition: all.2s;
+    position: relative;
+    padding: 10px 15px;
+    position: relative;
+    top:0;
+    cursor: pointer;
+    margin: 0px;
+    margin-right: 0%;
+}
+.pressionado:active {
+    top:3px;
+    box-shadow: 0 2px 0px;
+    transition: all .2s;
 
 }
 
@@ -37,11 +59,6 @@ body {
     gap: 20px;
 }
 
-.tudo {
-    display: grid;
-    grid-template-columns: 850px 370px;
-}
-
 .legenda {
     font-size: 30px;
 }
@@ -52,26 +69,35 @@ body {
 
 h2 {
     font-size: 50px;
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
-.primeira {
+.tudo {
     display: flex;
-    justify-content: space-around;
-    gap: 10%;
+    grid-template-columns: 850px 370px;
+    gap:10%;
+    margin-left: 3%;
+    align-items: center;
 }
 
 .imagem-1 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* margin-right: 50px; */
-
+    gap: 15%;
 
 }
 
+.imagens-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .comidas {
-    border-radius: 50px 50px;
+    border-radius: 30px 30px;
+    margin-bottom: 5%;
+    border:solid 5px;
+    border-color: orangered;
+
 }
 
 .cabecario {
@@ -84,8 +110,8 @@ h2 {
 .botoes {
     font-size: 30px;
     background-color: white;
-    border-radius: 30px;
-    padding: 5px 10px;
+    border-radius: 10px;
+    padding: 5px 15px;
     text-decoration: none;
     color: black;
 
@@ -109,6 +135,8 @@ h2 {
 
 
 
+
+
 .comeco {
     display: flex;
     gap: 27%;
@@ -120,7 +148,7 @@ h2 {
 }
 
 .rodape {
-    font-size: 30px;
+    font-size: 20px;
     background-color: white;
     border-radius: 5px;
     padding: 5px
@@ -130,7 +158,7 @@ footer {
     background-color: black;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 5px;
     position: relative;
     bottom: 0px;
     width: 100%;
@@ -155,7 +183,7 @@ footer {
         color: black;
     }
 
-    .primeira {
+    .tudo {
         display: flex;
         flex-direction: column-reverse;
 
@@ -169,20 +197,52 @@ footer {
     .conteudo {
         font-size: 1rem;
     }
+
     footer {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    position: relative;
-    bottom: 0px;
-    width: 120%;
-}
-.cabecario {
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
-    padding: 0px;
-    width: 120%;
-}
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        position: relative;
+        bottom: 0px;
+        width: 100%;
+    }
+
+    .cabecario {
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .comeco {
+        display: flex;
+        gap: 10%;
+    }
+    .botoes{
+        font-size: 20px;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        
+    }
+    .titulo{
+        font-size: 70px;
+    
+    }
+    .comidas{
+        width: 120px;
+        height: 120px;
+    }
+    .legenda{
+        font-size: 15px;
+    }
+    .botoes-baixo{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
 }
