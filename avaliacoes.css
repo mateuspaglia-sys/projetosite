@@ -144,7 +144,7 @@ footer {
     border: ridge 10px;
     border-color: black;
     margin-top: 3%;
-    gap: 10px;
+    padding-bottom: 1%;
 }
 
 .estrelinha {
