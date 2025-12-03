@@ -12,7 +12,7 @@ body {
     font-size: 90px;
     text-align: center;
     margin-top: 20px;
-
+    margin-right: 4%;
 
 }
 
@@ -144,7 +144,7 @@ footer {
     border: ridge 10px;
     border-color: black;
     margin-top: 3%;
-    padding-bottom: 1%;
+    padding: 2%;
 }
 
 .estrelinha {
