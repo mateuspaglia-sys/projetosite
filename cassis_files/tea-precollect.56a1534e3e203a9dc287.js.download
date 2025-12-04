@@ -1,3 +1,0 @@
-(function(a,c){if(a.LogAnalyticsObject=c,!a[c]){let n=function(){n.q.push(arguments)};var u=n;n.q=n.q||[],a[c]=n}a[c].l=+new Date})(window,"Tea");
-
-//# sourceMappingURL=tea-precollect.56a1534e3e203a9dc287.js.map
