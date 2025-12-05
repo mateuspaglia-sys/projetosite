@@ -21,8 +21,9 @@ h2 {
 .preenchimento {
     display: flex;
     padding-top: 70px;
-    justify-content: space-evenly;
-    margin-left: 150px;
+    justify-content: center;
+    gap: 25%;
+    /* margin-left: 150px; */
 
 
 }
@@ -41,6 +42,7 @@ h2 {
     cursor: pointer;
     margin: 0px;
     margin-right: 0%;
+    margin-bottom: 70px;
 }
 .apertado:active {
     top:3px;
@@ -125,6 +127,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
+    position: relative;
 }
 
 input[type="text"] {
@@ -144,7 +147,7 @@ a {
     flex-direction: column;
     font-size: 30px;
     border-radius: 10px;
-    padding-right: 150px;
+    /* padding-right: 150px; */
 }
 
 @media(max-width:600px) {
