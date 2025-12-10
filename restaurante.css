@@ -134,7 +134,7 @@ body {
         justify-content: center;
         padding-top: 10px;
         bottom: 0px;
-        width: 125%;
+        width: 100%;
 
     }
 
@@ -151,19 +151,20 @@ body {
     }
 
     .titulo {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .descricao {
-        font-size: 30px;
-    }
+        font-size: 25px;
+        padding-left: 0px;
+        padding-bottom: 80px;    }
 
     .escritajapones {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .traducao {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .logo {
@@ -172,11 +173,15 @@ body {
     }
 
     .subtitulo {
-        font-size: 20px;
-    }
+        font-size: 15px;
+        padding-right: 3px;   }
 
     .botoes {
-        font-size: 20px;
+        font-size: 13px;
+    }
+    .escritalateral{
+        margin: 0px;
+    
     }
 
 
