@@ -9,7 +9,8 @@
     padding-right: 250px;
 
 }
-.pressionado{
+
+.pressionado {
     background: black;
     font-size: 20px;
     color: white;
@@ -20,13 +21,14 @@
     position: relative;
     padding: 10px 15px;
     position: relative;
-    top:0;
+    top: 0;
     cursor: pointer;
     margin: 0px;
     margin-right: 0%;
 }
+
 .pressionado:active {
-    top:3px;
+    top: 3px;
     box-shadow: 0 2px 0px;
     transition: all .2s;
 
@@ -156,8 +158,8 @@ body {
 
     .descricao {
         font-size: 25px;
-        padding-left: 0px;
-        padding-bottom: 80px;    }
+        padding-top: 20px;
+    }
 
     .escritajapones {
         font-size: 25px;
@@ -174,14 +176,17 @@ body {
 
     .subtitulo {
         font-size: 15px;
-        padding-right: 3px;   }
+        padding-right: 3px;
+        padding-top: 5px;
+    }
 
     .botoes {
         font-size: 13px;
     }
-    .escritalateral{
+
+    .escritalateral {
         margin: 0px;
-    
+
     }
 
 
