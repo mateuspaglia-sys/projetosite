@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     min-height: 100vh;
+    position: relative;
 }
 
 h1 {
@@ -83,7 +84,7 @@ p {
     font-size: 20px;
     background-color: white;
     border-radius: 5px;
-    padding: 5px
+    padding: 5px;
 }
 footer{
     background-color:black;
@@ -91,7 +92,8 @@ footer{
     justify-content: center;
     padding-top: 5px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
+    left: 0;
     width: 100%;
 }
 @media(max-width:600px){
@@ -123,7 +125,7 @@ h1{
     font-size: 50px;
 }
 p{
-    font-size: 40px;
+    font-size: 30px;
 }
 .botoes{
     font-size: 20px;
