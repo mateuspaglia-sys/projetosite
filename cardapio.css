@@ -41,6 +41,8 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
 }
 
 .fotos {
@@ -159,7 +161,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 5px;
-    position: relative;
+    position:relative;
     bottom: 0px;
     width: 100%;
 }
@@ -246,6 +248,6 @@ footer {
         font-size: 30px;
     }
     .rodape{
-        font-size: 10px;
+        font-size: 20px;
     }
 }

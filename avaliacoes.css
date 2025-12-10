@@ -1,10 +1,10 @@
 body {
-
-    background-image: url(fundo.jpg);
+    background-image: url("./fundo.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
     min-height: 100vh;
 }
 
@@ -100,7 +100,7 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 5px;
-    position: relative;
+    position: absolute;
     bottom: 0px;
     width: 100%;
 }
@@ -211,7 +211,7 @@ main {
         display: flex;
         justify-content: center;
         padding-top: 10px;
-        position: relative;
+        position: absolute;
         bottom: 0px;
         width: 100%;
     }
