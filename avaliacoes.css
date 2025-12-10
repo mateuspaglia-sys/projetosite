@@ -100,7 +100,6 @@ footer {
     display: flex;
     justify-content: center;
     padding-top: 5px;
-    position: absolute;
     bottom: 0px;
     width: 100%;
 }
@@ -206,15 +205,9 @@ main {
 } */
 
 @media(max-width:600px) {
-    footer {
-        background-color: black;
-        display: flex;
-        justify-content: center;
-        padding-top: 10px;
-        position: absolute;
-        bottom: 0px;
-        width: 100%;
-    }
+   footer{
+    position: absolute;
+   }
 
     .faixa {
         font-size: 70px;
